@@ -9,7 +9,7 @@ Brenden Monteleone - PHP Programming
 
 Will Torres - HTML & CSS Programming
 
-Katie McDevitt - SQL Database Design
+Katie McDevitt - SQL & Database Design
 
 ====================
 
