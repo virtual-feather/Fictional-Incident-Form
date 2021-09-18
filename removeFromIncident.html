@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Remove from an Incident</title>
+	<link rel="stylesheet" type="text/css" href="css/finalcss.php">
+</head>
+<body>
+	<form class="form-inline" method="post" action="" id="incident">
+        <fieldset>
+               
+            <legend>Remove from an Incident</legend>
+
+            <div class="divContainer">
+                <div class="divRow">
+                    
+                    <fieldset>
+                        <legend>Incident Information for Comment</legend>
+
+                        <div class="divTopLeft">
+                            <label>Incident Number:</label>
+                            <input class="text-box" type="text" name="IncidentNumber">
+                        </div>
+
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>Remove Comment</legend>
+
+                        <div class="divPeopleLeft">
+                            <label>Comment ID</label>
+                            <input class="text-box" type="text" name="CommentID" placeholder="First Name">
+                        </div>
+
+                        <div class="divPeopleRight">
+                            <label>Comment Date:</label>
+                            <input class="text-box" type="text" name="DateFiled" placeholder="yyyy-mm-dd">
+                        </div>
+
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Remove an IP Address</legend>
+
+                        <div class="divPeopleLeft">
+                            <label>IP Address</label>
+                            <input class="text-box" type="text" name="IPAddress" placeholder="First Name">
+                        </div>
+
+                    </fieldset>
+                
+                </div>
+            
+            </div>
+            
+            <button type="submit" formaction="home.html">Return to Home</button>
+            <button type="submit" formaction="removeFromIncident.php">Remove from Incident</button>
+
+            </fieldset>
+        </form>
+</body>
+</html>

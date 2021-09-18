@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create a User</title>
+    <link rel="stylesheet" type="text/css" href="css/test-html.css">
+</head>
+<body>
+
+    <form class="form-inline" method="post" action="" id="incident">
+        <fieldset>
+               
+            <legend>Create A New User</legend>
+
+            <div class="divContainer">
+                <div class="divRow">
+                    
+                    <fieldset>
+                        <legend>Personal Info</legend>
+
+                        <div>
+                            <label>Title:</label>
+
+                            <select class="select" name="title">
+                                <option value = "Mr.">Mr.</option>
+                                <option value = "Ms.">Ms.</option>
+                                <option value = "Mrs.">Mrs.</option>
+                                <option value = "Miss.">Miss.</option>
+                                <option value = "Dr.">Dr.</option>
+                            </select>
+
+                        </div>
+
+                        <div class="divTopRight">
+                            <!-- Null -->
+                        </div>
+
+                        <div class="divTopRight">
+                            <label>First Name:</label>
+                            <input class="text-box" type="text" name="firstName">
+                        </div>
+
+                        <div class="divTopLeft">
+                            <label>Last Name:</label>
+                            <input class="text-box" type="text" name="lastName">
+                        </div>
+
+                        <div class="divTopRight">
+                            <label>Email:</label>
+                            <input class="text-box" type="text" name="email">
+                        </div>
+
+                        <div class="divTopLeft">
+                            <label>Job:</label>
+                            <input class="text-box" type="text" name="job">
+                        </div>
+
+                        <div class="divTopLeft">
+                            <label>Password:</label>
+                            <input class="text-box" type="text" name="password">
+                        </div>
+
+                    </fieldset>
+                
+                </div>
+            
+            </div>
+            
+            <button type="submit" formaction="index.html">Return to Login</button>
+            <button type="submit" formaction="createUser.php">Create User</button>
+
+            </fieldset>
+        </form>
+
+</body>
+</html>

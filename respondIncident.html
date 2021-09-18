@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Respond Incident Form</title>
+	<link rel="stylesheet" type="text/css" href="css/test-html.css">
+</head>
+<body>
+
+	<form class="form-inline" method="post" action="" id="incident">
+        <fieldset>
+               
+            <legend>Respond to an Incident Form</legend>
+
+            <div class="divContainer">
+                <div class="divRow">
+                    
+                    <fieldset>
+                        <legend>Incident Information</legend>
+
+                        <div class="divTopLeft">
+                            <label>Incident Number:</label>
+                            <input class="text-box" type="text" name="IncidentNumber">
+                        </div>
+
+                        <div class="divTopRight">
+                            <label>Date Filed:</label>
+                            <input class="text-box" type="text" name="DateFiled" placeholder="yyyy-mm-dd">
+                        </div>
+                        
+                        <div>
+                            <label>Change Status:</label>
+                            
+                            <div>
+                                <input type="radio" id="open" name="status" value="Open" checked>
+                                <label for="open">Open</label>
+                                <input type="radio" id="closed" name="status" value="Closed">
+                                <label for="closed">Closed</label>
+                                <input type="radio" id="stalled" name="status" value="Stalled">
+                                <label for="stalled">Stalled</label>
+                            </div>
+                        
+                        </div>
+
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>Person Responding</legend>
+
+                        <div class="divPeopleLeft">
+                            <label>First Name:</label>
+                            <input class="text-box" type="text" name="FN" placeholder="First Name">
+                            <label>Last Name:</label>
+                            <input class="text-box" type="text" name="LN" placeholder="Last Name">
+                        </div>
+                        
+                        <div class="divPeopleRight">
+                            <label>Job Title:</label>
+                            <input class="text-box" type="text" name="Job" placeholder="Job Title">
+                            <label>Email:</label>
+                            <input class="text-box" type="text" name="Email" placeholder="Email">
+                        </div>
+<!--                        
+                        <div class="divPeopleBottom">
+                            <label>Reason for Including Person(s):</label>
+                            <textarea class="textarea-box" rows="4" cols="50" name="ReasonPeople">Enter text here...</textarea>
+                        </div>
+-->                    
+                    </fieldset>
+
+                    
+                    <div class=divBottom>
+                        <label>Comments</label>
+                        <textarea class="textarea-box" rows="4" cols="50" name="comment" placeholder="Enter comments here. If you gave an IP address, please explain why."></textarea>
+                    </div>
+
+                    <div class="divTopRight">
+                        <label>Current Date:</label>
+                        <input class="text-box" type="text" name="CurrentDate" placeholder="yyyy-mm-dd">
+                    </div>
+                
+                </div>
+            
+            </div>
+            
+            <button type="submit" formaction="home.html">Return to Home</button>
+            <button type="submit" formaction="respondIncidentResult.php">View Incident</button>
+
+            </fieldset>
+        </form>
+
+</body>
+</html>
